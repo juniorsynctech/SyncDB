@@ -55,7 +55,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SQL\GerarSQL.cs" />
     <Compile Include="SyncDB.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +90,8 @@
   <ItemGroup>
     <Content Include="midas.dll" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="SQL\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
